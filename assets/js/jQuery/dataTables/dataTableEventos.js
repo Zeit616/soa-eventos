@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    tablaUsuarios = $("#tablaUsuarios").DataTable({
+    tablaEventos = $("#tablaEventos").DataTable({
         "ajax": {
-            url: "../../model/listarDataTables/listarUsuarios.php",
+            url: "../../model/listarDataTables/listarEventos.php",
             dataSrc: "",
             type: "POST",
             data: {listar : 1},
@@ -15,38 +15,50 @@ $(document).ready(function(){
                 visible: false    
             },
             {
-                //Nombre
+                //codigo
                 targets: 1,
                 orderable: true,
                 visible: true    
             },
             {
-                //Usuario
+                //nombre evento
                 targets: 2,
                 orderable: false,
                 visible: true    
             },
             {
-                //Contraseña
+                //fecha inicio
                 targets: 3,
                 orderable: false,
                 visible: false    
             },
             {
-                //Rol
+                //hora iniio
                 targets: 4,
                 orderable: true,
                 visible: true    
             },
             {
-                //Estado
+                //fecha fin
                 targets: 5,
                 orderable: true,
                 visible: true    
             },
             {
-                //Opciones
+                //hora fin
                 targets: 6,
+                orderable: true,
+                visible: true    
+            },
+            {
+                //lugar fin
+                targets: 7,
+                orderable: true,
+                visible: true    
+            },
+            {
+                //Opciones
+                targets: 8,
                 orderable: false,
                 visible: true,
                 render: function(data, type, full, meta){

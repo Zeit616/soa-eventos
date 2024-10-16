@@ -99,7 +99,7 @@
                                                     <input type="date" name="EditarFechaFin" class="form-control" id="EditarFechaFin" placeholder="Ingrese la fecha de fin">
                                                 </div>                                                
                                                 <div class="col-sm-12 col-md-6 col-lg-4 form-group">
-                                                    <label for="EditarHoraFin">Hora inicio</label>
+                                                    <label for="EditarHoraFin">Hora fin</label>
                                                     <input type="time" name="EditarHoraFin" class="form-control" id="EditarHoraFin" placeholder="Ingrese la hora de fin">
                                                 </div>
                                                 <div class="col-sm-12 col-md-6 col-lg-4 form-group">
@@ -198,9 +198,9 @@
     <!-- Script para añadir usuario -->
         <script src="../../js/jQuery/registroAjax/añadirEvento.js"></script>
     <!-- Script para editar usuario -->
-        <script src="../../js/jQuery/editarAjax/editarUsuario.js"></script>
+        <script src="../../js/jQuery/editarAjax/editarEvento.js"></script>
     <!-- Script para eliminar usuario -->
-        <script src="../../js/jQuery/eliminarAjax/eliminarUsuario.js"></script>
+        <script src="../../js/jQuery/eliminarAjax/eliminarEvento.js"></script>
     <!-- Iniciar DataTable -->
-        <script src="../../js/jQuery/dataTables/dataTableUsuarios.js"></script>
+        <script src="../../js/jQuery/dataTables/dataTableEventos.js"></script>
 <!-- Fin Scripts Necesarios para funcionamiento -->                        
