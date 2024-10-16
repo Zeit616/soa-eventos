@@ -27,6 +27,12 @@
                                         <p>Usuarios</p>
                                     </a>
                                 </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link" onclick="CargarPlantilla('Eventos.php', 'content-wrapper')">
+                                        <i class="fa-regular fa-circle"></i>
+                                        <p>Eventos</p>
+                                    </a>
+                                </li>
                             </ul>
                         </li>                        
                         <li class="nav-item">
