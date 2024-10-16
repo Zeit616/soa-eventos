@@ -324,7 +324,6 @@ ALTER TABLE `solicitud`
 
 --
 -- AUTO_INCREMENT de la tabla `teventos`
---
 ALTER TABLE `teventos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;

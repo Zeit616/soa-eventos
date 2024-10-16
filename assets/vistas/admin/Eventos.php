@@ -51,7 +51,7 @@
                                                     <input type="date" name="AñadirFechaFin" class="form-control" id="AñadirFechaFin" placeholder="Ingrese la fecha de fin">
                                                 </div>                                                
                                                 <div class="col-sm-12 col-md-6 col-lg-4 form-group">
-                                                    <label for="AñadirHoraFin">Hora inicio</label>
+                                                    <label for="AñadirHoraFin">Hora fin</label>
                                                     <input type="time" name="AñadirHoraFin" class="form-control" id="AñadirHoraFin" placeholder="Ingrese la hora de fin">
                                                 </div>
                                                 <div class="col-sm-12 col-md-6 col-lg-4 form-group">
@@ -140,6 +140,7 @@
                                                         <th>Hora inicio</th>
                                                         <th>Fecha fin</th>
                                                         <th>Hora fin</th>
+                                                        <th>Lugar evento</th>
                                                         <th>Opciones</th>
                                                     </tr>
                                                 </thead>
@@ -155,6 +156,7 @@
                                                         <th>Hora inicio</th>
                                                         <th>Fecha fin</th>
                                                         <th>Hora fin</th>
+                                                        <th>Lugar evento</th>
                                                         <th>Opciones</th>
                                                     </tr>
                                                 </tfoot>
@@ -188,19 +190,17 @@
         <script src="../../plugins/dataTables/buttons.print.min.js"></script>
         <script src="../../plugins/dataTables/buttons.colVis.min.js"></script>
     <!-- Script abrir/cerrar modales -->    
-        <script src="../../js/jQuery/abrirCerrarModales/abrirCerrarModalesUsuarios.js"></script>
+        <script src="../../js/jQuery/abrirCerrarModales/abrirCerrarModalesEventos.js"></script>
     <!-- Script para la validación de inputs de formularios -->
-        <script src="../../js/validations/validacionUsuarios.js"></script>
+        <script src="../../js/validations/validacionEventos.js"></script>
     <!-- Script para limpiar campos de todos los Formularios de registro -->
         <script src="../../js/limpiarInputs/limpiarInputs.js"></script>
     <!-- Script para añadir usuario -->
-        <script src="../../js/jQuery/registroAjax/añadirUsuario.js"></script>
+        <script src="../../js/jQuery/registroAjax/añadirEvento.js"></script>
     <!-- Script para editar usuario -->
         <script src="../../js/jQuery/editarAjax/editarUsuario.js"></script>
     <!-- Script para eliminar usuario -->
         <script src="../../js/jQuery/eliminarAjax/eliminarUsuario.js"></script>
     <!-- Iniciar DataTable -->
         <script src="../../js/jQuery/dataTables/dataTableUsuarios.js"></script>
-    <!-- Filtros de busqueda -->
-        <script src="../../js/jQuery/dataTables/filtroBusquedaDataTable/busquedaDataTableUsuarios.js"></script>
 <!-- Fin Scripts Necesarios para funcionamiento -->                        
